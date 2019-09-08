@@ -1,0 +1,10 @@
+@import "./assets/variables";
+@import "./assets/mixins";
+@import "./assets/reset";
+@import "./assets/utils";
+
+//components
+@import "./components/header";
+@import "./components/searchbar";
+
+@import "./components/movieItem";

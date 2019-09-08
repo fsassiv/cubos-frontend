@@ -1,0 +1,28 @@
+.search {
+  &__form {
+    margin-bottom: 5%;
+    @include minBP($lg) {
+      margin-bottom: 2%;
+    }
+  }
+  &__input {
+    border: none;
+    width: 100%;
+    padding: 10px 25px;
+    background-color: $tertiary-color;
+    color: $primary-color;
+    border-radius: 30px;
+    &::-webkit-input-placeholder {
+      color: $primary-color;
+    }
+    &:-ms-input-placeholder {
+      color: $primary-color;
+    }
+    &::-ms-input-placeholder {
+      color: $primary-color;
+    }
+    &::placeholder {
+      color: $primary-color;
+    }
+  }
+}

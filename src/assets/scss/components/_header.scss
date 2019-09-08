@@ -1,0 +1,14 @@
+.header {
+  background-color: $primary-color;
+  text-align: center;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  &__title {
+    color: $secondary-color;
+    font-size: 2rem;
+    font-weight: normal;
+    @include minBP($lg) {
+      font-size: 3rem;
+    }
+  }
+}
