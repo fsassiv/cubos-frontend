@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/cubos-frontend/static/css/main.7804aa0a.chunk.css",
+    "main.js": "/cubos-frontend/static/js/main.d31a1ffb.chunk.js",
+    "main.js.map": "/cubos-frontend/static/js/main.d31a1ffb.chunk.js.map",
+    "runtime~main.js": "/cubos-frontend/static/js/runtime~main.4f0c95d8.js",
+    "runtime~main.js.map": "/cubos-frontend/static/js/runtime~main.4f0c95d8.js.map",
+    "static/js/2.244eced3.chunk.js": "/cubos-frontend/static/js/2.244eced3.chunk.js",
+    "static/js/2.244eced3.chunk.js.map": "/cubos-frontend/static/js/2.244eced3.chunk.js.map",
+    "index.html": "/cubos-frontend/index.html",
+    "precache-manifest.151b761a5c2bb503fbacd0d5f43fe0a9.js": "/cubos-frontend/precache-manifest.151b761a5c2bb503fbacd0d5f43fe0a9.js",
+    "service-worker.js": "/cubos-frontend/service-worker.js",
+    "static/css/main.7804aa0a.chunk.css.map": "/cubos-frontend/static/css/main.7804aa0a.chunk.css.map"
+  }
+}
