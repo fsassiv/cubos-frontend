@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import numeral from "numeral";
 
 const MovieItem = ({
   id,
@@ -27,7 +28,9 @@ const MovieItem = ({
             <h3 className="title is-abel">{title}</h3>
           </Link>
           <span className="vote-average is-abel">
-            <span className="value">{vote_average}</span>
+            <span className="value">
+              {numeral(vote_average / 10).format("0 %")}
+            </span>
           </span>
           <span className="release-date">{release_date}</span>
         </div>

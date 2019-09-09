@@ -13,7 +13,7 @@ const SearchBar = ({ handleSubmit }) => {
         //Get the input value
         const searchText = e.target.children[0].value;
 
-        handleSubmit(searchText);
+        handleSubmit(searchText, 1);
       }}
     >
       <input
